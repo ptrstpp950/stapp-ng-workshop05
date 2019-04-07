@@ -9,10 +9,10 @@ export class BarComponent implements OnInit {
 
   @ViewChild('container') container;
 
-  private _percentage: number;
-  private _updatable: boolean = false;
+  _percentage: number;
+  _updatable: boolean = false;
 
-  private _updating: boolean = false;
+  _updating: boolean = false;
 
 
 
