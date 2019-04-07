@@ -1,0 +1,23 @@
+:host {
+    display: block;
+    border: 1px solid black;
+    margin-bottom: 40px;
+}
+
+:host .updatable {
+    cursor: crosshair;
+}
+
+:host div.inner {
+    max-width: 100%;
+    display: block;
+    min-height: 25px;
+}
+
+:host .fixed div.inner {
+    background-color: gray;
+}
+
+:host .updatable div.inner {
+    background-color: green;
+}

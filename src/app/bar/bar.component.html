@@ -1,0 +1,8 @@
+<div #container 
+  (mousedown)="mousedown()"
+  (mouseup)="mouseup()"
+  [ngClass]="_updatable?'updatable':'fixed'">
+  <div class="inner" [style.width.%]="_percentage">
+  </div>
+  {{_updatable?'Updatable':'Fixed'}} bar works: {{_percentage}}
+</div>
